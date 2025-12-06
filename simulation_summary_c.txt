@@ -1,0 +1,26 @@
+=== DELIVERY CYCLE CLL SIMULATION SUMMARY ===
+
+Simulation time          : 500.00 units
+Mean inter-arrival time  : 2.00
+Stages (mean service times):
+  PLACED     -> 0.70
+  PACKED     -> 1.00
+  DISPATCHED -> 0.90
+  OUTFOR     -> 0.60
+
+Total orders arrived     : 182
+  Express orders         : 31
+  Normal orders          : 151
+Total cancelled          : 4
+
+Total delivered          : 151
+  Delivered express      : 27
+  Delivered normal       : 124
+
+Average time in system (from arrival to delivery)
+  Overall                : 38.243 time units
+  Express only           : 51.231 time units
+  Normal only            : 35.415 time units
+
+Queue size samples written to: orders_log_c.csv
+Per-order lifecycle written to: orders_detailed_c.csv
